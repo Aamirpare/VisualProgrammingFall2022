@@ -1,0 +1,16 @@
+﻿Simple Requirements
+===================
+   Faculty member delivers a lecture to the studnets for his allocated courses.
+   Institute wants to build a software to automate this process so that factulty and students can use
+   this application for quick information retrieval and quick updates.
+   
+Software Architecture
+=====================
+  Among many software architectures the layered architecture remained very famous for many years. 
+  Usually developers start with the following three layers initially to start with and add up further
+  layers in future depend on the requirement change.
+  
+  We use the following three layer architecture to start with. 
+    => Domain Aand Data Acess
+    => Business Logic
+    => User Interface (initially a command line interface)

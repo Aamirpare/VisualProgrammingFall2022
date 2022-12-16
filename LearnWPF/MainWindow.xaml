@@ -1,0 +1,32 @@
+﻿<Window x:Class="LearnWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearnWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="ParentGrid">
+        <Button 
+            Content="Submit" 
+            HorizontalAlignment="Left" 
+            Margin="104,58,0,0" 
+            VerticalAlignment="Top"
+            Background="BlueViolet"
+            Foreground="White"
+            Cursor="Hand"
+            FontSize="20"
+            FontFamily="Arial Rounded MT Bold"
+            Height="62" Width="172" Click="Submit"/>
+
+        <Button Margin="10,201,100,40">
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Height="60" Width="60" Fill="Red"/>
+                <TextBlock TextAlignment="Center"><Run Text=" Red Circle"/></TextBlock>
+                <TextBlock TextAlignment="Center"><Run Text=" "/></TextBlock>
+                <Rectangle Height="60" Width="120" Fill="Green"></Rectangle>
+                <TextBlock TextAlignment="Center"><Run Text=" Green Rectangle"/></TextBlock>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

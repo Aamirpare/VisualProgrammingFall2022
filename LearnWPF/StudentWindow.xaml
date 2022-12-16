@@ -1,0 +1,18 @@
+﻿<Window x:Class="LearnWPF.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearnWPF"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock>
+            <Run Foreground="Blue">Hello!</Run> The quick brownn fox jumps over the lazy dog.
+            <Bold>The quick brownn </Bold>fox jumps over the lazy dog.<LineBreak/>
+            <Hyperlink NavigateUri="https://www.kasheer.com.pk" RequestNavigate="Hyperlink_RequestNavigate">https://www.kasheer.com.pk</Hyperlink>
+        </TextBlock>
+        <Button Width="150" Height="70" Content="Open"
+                FontSize="15" FontWeight="Bold" Click="Open_Click"/>
+    </Grid>
+</Window>

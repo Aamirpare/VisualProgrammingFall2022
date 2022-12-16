@@ -1,0 +1,12 @@
+﻿Windows GUI Programming Using C#
+1. WinForms
+2. WPF
+
+Winforms
+   1. Form 
+      What is the form?
+      Form is a control and serves as a basic cavas on which we can draw the elements of the picture.
+      You can drag elements/UI controls from the toolbox onto the form. or create programatically.
+
+      How to lauch another form from the form you currrently are on. 
+      How to change the startup form?
